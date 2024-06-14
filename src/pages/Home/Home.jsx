@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import Product from "../../components/Product/Product";
 import Cart from "../../components/Cart/Cart";
 import { useState } from "react";
-import { Toaster, toast } from "sonner";
+import { toast } from "sonner";
 
 
 const Home = () => {
