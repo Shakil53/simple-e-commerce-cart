@@ -1,23 +1,26 @@
+/* eslint-disable react/prop-types */
 
-import { Card } from "antd";
-import Meta from "antd/es/card/Meta";
+import { Button } from "antd";
 
-const Product = ({ items }) => {
-    const { img } = items;
+
+
+const Product = ({ item }) => {
+    const { name,img, company, price } = item;
     
     return (
-        <>
-       <Card
-    hoverable
-    style={{
-      width: 240,
-    }}
-    cover={<img alt="example" src={img} />}
-  >
-    <Meta title="Europe Street beat" description="www.instagram.com" />
-  </Card>
-           
-    </>
+     
+        <div className="border-2 p-5 rounded-lg shadow-sm hover:shadow-xl">
+            <div className="gap-2">
+                <img className="size-60" src={img}></img>
+                <p className="text-xl font-semibold truncate">{name}</p>
+                <p className="text-gray-400 truncate">{company}</p>
+                <p className="text-gray-600 text-sm font-bold mt-1">${price}</p>
+            </div>
+            <div className="mt-5 text-end">
+                <Button className="font-semibold">Add to cart</Button>
+            </div>
+        </div>
+   
     );
 };
 

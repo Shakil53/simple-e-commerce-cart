@@ -12,7 +12,7 @@ const Home = () => {
                     items.map(item =>
                         <Product
                             key={item.id}
-                            items= {item}
+                            item= {item}
                         ></Product>
                     )    
                 }

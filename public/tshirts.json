@@ -14,19 +14,6 @@
       "img": "https://i.ibb.co/vjPCRF2/1605072078749.png"
   },
   {
-      "id": 22,
-      "name": "Prosalic Lotion 25 ml",
-      "quantity": "150 mg",
-      "generic": "Betamethasone",
-      "company": "Goodier Cosmetics, LP",
-      "offer": "10%",
-      "mrp": 150.43,
-      "price": 144.43,
-      "form": "Scalp Lotion",
-      "category": "Eczema",
-      "img": "https://i.ibb.co/PN76VKc/lotion-prosalic-removebg-preview-1630121206462.webp"
-  },
-  {
       "id": 23,
       "name": "Diprosal 30 ml",
       "quantity": "150 mg",
@@ -325,59 +312,7 @@
       "form": "Oral Suspension",
       "category": "Oral Fungal Infection",
       "img": "https://i.postimg.cc/0QwfXYTJ/nystat-12ml-suspension-400x400-removebg-preview-1631117159199.webp"
-  },
-  {
-      "id": 137,
-      "name": "Miconex 10",
-      "quantity": "10 ml",
-      "generic": "Nystatin",
-      "company": "ACI Limited",
-      "offer": "4%",
-      "mrp": 39.4,
-      "price": 37.4,
-      "form": "Oral Suspension",
-      "category": "Oral Fungal Infection",
-      "img": "https://i.postimg.cc/8cgb2FGX/miconex2-1647945145422.webp"
-  },
-  {
-      "id": 138,
-      "name": "Alestor",
-      "quantity": "5 ml",
-      "generic": "Allylestrenol 5mg",
-      "company": "Incepta Pharmaceuticals Ltd",
-      "offer": "4%",
-      "mrp": 80,
-      "price": 76,
-      "form": "Tablet",
-      "category": "Gynecological",
-      "img": "https://i.postimg.cc/ZnPL4TKb/26-1634112134301.webp"
-  },
-  {
-      "id": 139,
-      "name": "Prelab",
-      "quantity": "5 ml",
-      "generic": "Allylestrenol 5mg",
-      "company": "ACI Limited",
-      "offer": "4%",
-      "mrp": 8,
-      "price": 7.7,
-      "form": "Tablet",
-      "category": "Gynecological",
-      "img": "https://i.postimg.cc/gc3svKyC/sintel-10-ml-1632391956401.webp"
-  },
-  {
-      "id": 140,
-      "name": "Noret 28",
-      "quantity": "5 ml",
-      "generic": "Allylestrenol 5mg",
-      "company": "ACI Limited",
-      "offer": "4%",
-      "mrp": 23.52,
-      "price": 21.17,
-      "form": "Pill",
-      "category": "Gynecological",
-      "img": "https://i.postimg.cc/Dwwc33Vh/IMG-20231029-WA0169.webp"
   }
-
+  
 
 ]
