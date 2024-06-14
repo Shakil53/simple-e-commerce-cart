@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 
 import { Button } from "antd";
+import { Toaster } from "sonner";
 
 
 
-const Product = ({ item }) => {
+const Product = ({ item, handleAddToCart }) => {
     const { name,img, company, price } = item;
     
     return (
@@ -17,7 +18,10 @@ const Product = ({ item }) => {
                 <p className="text-gray-600 text-sm font-bold mt-1">${price}</p>
             </div>
             <div className="mt-5 text-end">
-                <Button className="font-semibold">Add to cart</Button>
+                <Button
+                    onClick={()=>handleAddToCart(item)}
+                    className="font-semibold">Add to cart</Button>
+                 <Toaster richColors/>
             </div>
         </div>
    
