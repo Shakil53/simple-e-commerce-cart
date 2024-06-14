@@ -24,7 +24,7 @@ const Cart = ({ cart, handleRemoveItem }) => {
     return (
         <div className="p-16">
             <h1 className="truncate text-3xl font-bold">Order Summery</h1>
-            <p>Order quantity: {cart.length}</p>
+            
             
             <div>
                 <table>
@@ -51,6 +51,7 @@ const Cart = ({ cart, handleRemoveItem }) => {
             </div>
             {/* pricing */}
             <div className="mt-5">
+            <p className="text-gray-500 text-xs font-bold">Number of Items:<span> {cart.length}</span></p>
                 <p className="text-green-500 font-semibold ">Total Price: {total.toFixed(2) }</p>
             </div> 
         </div>
